@@ -1,0 +1,26 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>
+*{margin:0;box-sizing:border-box}
+body{width:1600px;height:1200px;background:#0f172a;color:#e2e8f0;font-family:"Noto Sans",sans-serif;padding:96px 110px;display:flex;flex-direction:column}
+.tag{color:#a78bfa;font-size:30px;font-weight:700;letter-spacing:4px;text-transform:uppercase}
+h1{font-size:92px;line-height:1.05;margin:22px 0 14px;color:#fff}
+.sub{font-size:38px;color:#94a3b8;margin-bottom:60px}
+.fix{display:flex;align-items:center;gap:28px;font-size:40px;padding:22px 0;border-top:2px solid #1e293b}
+.fix:last-of-type{border-bottom:2px solid #1e293b}
+.ok{width:54px;height:54px;border-radius:50%;background:#16a34a;color:#fff;font-size:36px;font-weight:700;display:flex;align-items:center;justify-content:center;flex:none}
+.fix b{color:#fff}
+.fix span{color:#94a3b8}
+.foot{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;font-size:34px}
+.up{font-size:52px;font-weight:700;color:#fff}
+.up em{font-style:normal;color:#a78bfa}
+.foot .note{color:#94a3b8;text-align:right}
+</style></head><body>
+<div class="tag">Express API review · demo</div>
+<h1>4 holes, attacked and fixed</h1>
+<div class="sub">An AI-built Node.js API shared by several companies</div>
+<div class="fix"><div class="ok">✓</div><b>Forged logins</b><span>JWT secret falls back to a string in the code</span></div>
+<div class="fix"><div class="ok">✓</div><b>Other companies' data</b><span>any document by id, read or deleted</span></div>
+<div class="fix"><div class="ok">✓</div><b>Any column</b><span>member to owner, SQL in field names</span></div>
+<div class="fix"><div class="ok">✓</div><b>Takeover</b><span>reset tokens in the team list</span></div>
+<div class="foot"><div class="up">18 tests <em>·</em> CI</div><div class="note">Each attack must work on the flawed app<br>and fail on the fixed one</div></div>
+</body></html>
